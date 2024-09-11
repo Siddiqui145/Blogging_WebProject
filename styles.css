@@ -1,0 +1,63 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(https://images.pexels.com/photos/7233356/pexels-photo-7233356.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    margin: 0;
+}
+
+#box {
+    background-color: #f8f9fa;
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#text, #number {
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#button {
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: #007BFF; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #0056b3; 
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-label {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,86 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #80d0e0, #b3e5fc, #ffffff);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Keyframe for gradient animation */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+.compose-wrapper {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #002a4a;
+    text-shadow: 2px 2px #e4e4e4;
+}
+
+
+.blog-form .form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 18px;
+    color: #004466;
+}
+
+.form-control, .form-select {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+    transition: border 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border: 2px solid #66b2ff;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+    border-radius: 12px;
+}
+
+/* Submit Button */
+.btn-submit {
+    background-color: #003d66;
+    color: #fff;
+    padding: 12px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 61, 102, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #002a4a;
+    box-shadow: 0px 8px 15px rgba(0, 61, 102, 0.4);
+}
+
+
+.form-control:hover, .form-select:hover {
+    border-color: #80d4ff;
+}
