@@ -91,3 +91,9 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 1. Installation Steps: Detailed steps for setting up the project, including database configuration and PHP setup.
 2. Usage Instructions: Guides the user on how to create an account, post a blog, and view blogs.
 
+
+# Screenshots
+
+![Screenshot 2024-09-11 153906](https://github.com/user-attachments/assets/7a9ec837-88dd-4a7f-8b76-e09ec1225bf6)
+
+
