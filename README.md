@@ -36,7 +36,7 @@ Make sure you have the following installed:
 1. Clone the Repository
 
    ```bash
-   git clone https://github.com/yourusername/curious-blog-platform.git
+   git clone https://github.com/Siddiqui145/Blogging_WebProject.git
 
    Set Up the Database
 
